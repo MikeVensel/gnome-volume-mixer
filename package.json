@@ -1,0 +1,28 @@
+{
+  "name": "volume-mixer",
+  "version": "0.0.0",
+  "description": "Volume control of multiple Pipewire audio sinks",
+  "type": "module",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/example/volume-mixer.git"
+  },
+  "author": "Álan Crístoffer e Sousa <acristoffers@startmail.com>",
+  "license": "LGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/example/volume-mixer/issues"
+  },
+  "homepage": "https://github.com/example/volume-mixer#readme",
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "@girs/gjs": "^4.0.0-rc.5",
+    "@girs/gnome-shell": "^49.1.0"
+  }
+}

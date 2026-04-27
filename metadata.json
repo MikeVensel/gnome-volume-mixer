@@ -1,0 +1,8 @@
+{
+  "name": "Volume Mixer",
+  "description": "Allow volume control of multiple Pipewire audio sinks",
+  "uuid": "volume-mixer@mikevensel.github.com",
+  "shell-version": ["49"],
+  "gettext-domain": "volume-mixer@mikevensel.github.com",
+  "settings-schema": "org.gnome.shell.extensions.volume-mixer"
+}
